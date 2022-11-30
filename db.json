@@ -1,0 +1,40 @@
+{
+  "recipes": [
+    {
+      "name": "Burger",
+      "author": "Eric",
+      "description": "Delicous Cheese burger Burger with Toasted bun, Lettuce, and Tomato",
+      "country": "America",
+      "image": "https://img.freepik.com/free-photo/front-view-tasty-meat-burger-with-cheese-salad-dark-background_140725-89597.jpg?w=2000&t=st=1669802185~exp=1669802785~hmac=59fc389f9fd9c942c3428ef98f1b71041a7380ddb0422d2a5c2d870a07d24b31",
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient": "burger patty",
+          "amount": "200 grams"
+        },
+        {
+          "id": 2,
+          "ingredient": "toasted bun",
+          "amount": "30 grams"
+        },
+        {
+          "id": 3,
+          "ingredient": "tomato",
+          "amount": "20 grams"
+        },
+        {
+          "id": 4,
+          "ingredient": "cheese",
+          "amount": "15 grams"
+        },
+        {
+          "id": 5,
+          "ingredient": "lettuce",
+          "amount": "12 grams"
+        }
+      ],
+      "instructions": "Grill burger patty, add cheese, lettuce, and tomato to toasted bun",
+      "id": 1
+    }
+  ]
+}

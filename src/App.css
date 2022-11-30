@@ -1,38 +1,93 @@
 .App {
-  text-align: center;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card h4 {
+  margin: 0;
+}
+.card {
+  width: 20rem;
+  height: max-content;
+  border: 1px solid lightgray;
+  margin: 3rem;
+  border-radius: 7px;
+  position: relative;
+  box-shadow: 3px 3px 5px grey;
+  line-height: 1.75rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cardimage {
+  max-width: 100%;
+  max-height: 240px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  display: block;
+  margin: 0 auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cardflag {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  width: 4rem;
+  height: 3rem;
+  border: 1px solid lightgrey;
+  border-radius: 50%;
+}
+
+.cardcontent {
+  padding: 1rem;
+}
+
+.readmore {
+  padding: 0.5rem 1rem;
+  background-color: blue;
+  border: none;
+  border-radius: 6px;
+  margin-top: 0.75rem;
+  align-self: flex-end;
+}
+
+.recipe {
+  display: flex;
+  width: 80vw;
+  margin: 1rem auto;
+}
+
+.left-column {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: relative;
+  padding: 1rem;
+  width: 60vw;
 }
 
-.App-link {
-  color: #61dafb;
+.right-column {
+  padding: 1rem;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.flag {
+  width: 4rem;
+  border: 1px solid gray;
+  margin: 1rem;
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  border-radius: 50%;
+}
+
+.foodimage {
+  width: 100%;
+}
+
+.table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin-top: 0.75rem;
+}
+
+.tablerow {
+  border: 1px solid gray;
+  padding: 0.3rem 1rem;
 }
